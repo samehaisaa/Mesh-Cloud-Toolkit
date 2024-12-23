@@ -1,0 +1,28 @@
+# Ignore all files in the data folder except placeholders
+data/*
+!data/example.obj
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env/
+.venv/
+
+# Ignore IDE/project-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore log files
+*.log
+
+# Ignore large files and temporary files
+*.tmp
+*.bak
+
+# Ignore point cloud or mesh files
+*.pcd
+*.ply
+*.obj
