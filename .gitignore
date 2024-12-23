@@ -1,4 +1,3 @@
-# Ignore all files in the data folder except placeholders
 data/*
 !data/example.obj
 
