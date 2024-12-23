@@ -22,6 +22,3 @@ __pycache__/
 *.bak
 
 # Ignore point cloud or mesh files
-*.pcd
-*.ply
-*.obj
