@@ -1,6 +1,6 @@
 from mesh_processing.mesh_to_pointcloud import mesh_to_point_cloud
 from mesh_processing.visualization import visualize_point_cloud
-
+from mesh_processing.file_io import save_point_cloud
 if __name__ == "__main__":
     mesh_file = "./data/visage.obj"  
     
