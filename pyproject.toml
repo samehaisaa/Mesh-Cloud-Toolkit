@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meshcloud"
+version = "0.1.0"
+description = "Point cloud registration from scratch: mesh sampling, point-to-point and point-to-plane ICP, trimmed ICP."
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [{ name = "Sameh Aissa" }]
+dependencies = ["numpy>=1.23", "scipy>=1.9"]
+
+[project.optional-dependencies]
+experiments = ["matplotlib>=3.6", "pillow>=9"]
+dev = ["pytest>=7", "ruff~=0.17.0", "matplotlib>=3.6", "pillow>=9"]
+
+[project.urls]
+Repository = "https://github.com/samehaisaa/Mesh-Cloud-Toolkit"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "NPY"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

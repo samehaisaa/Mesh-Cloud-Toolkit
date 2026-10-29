@@ -1,24 +1,12 @@
-data/*
-!data/example.obj
-
-# Ignore Python cache and virtual environments
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-.env/
+*.egg-info/
+build/
+dist/
 .venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
 
-# Ignore IDE/project-specific files
-.vscode/
-.idea/
-*.swp
-
-# Ignore log files
-*.log
-
-# Ignore large files and temporary files
-*.tmp
-*.bak
-
-# Ignore point cloud or mesh files
+# Downloaded meshes (run experiments/fetch_bunny.py)
+data/
