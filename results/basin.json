@@ -1,0 +1,231 @@
+{
+  "shape": "Stanford Bunny",
+  "points": 4000,
+  "trials": 20,
+  "success_threshold_deg": 5.0,
+  "shift_fraction": 0.02,
+  "max_iterations": 300,
+  "rows": [
+    {
+      "angle": 0,
+      "point-to-point": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.23932988681608167,
+        "median_alignment_error": 0.0009731191983845098,
+        "median_iterations": 13.0,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.03351442760037175,
+        "median_alignment_error": 0.00014644094272886325,
+        "median_iterations": 3.0,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 15,
+      "point-to-point": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.2856680028957672,
+        "median_alignment_error": 0.0012359688176267682,
+        "median_iterations": 24.5,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.03411130027895422,
+        "median_alignment_error": 0.00014634199279577644,
+        "median_iterations": 5.0,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 30,
+      "point-to-point": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.2917457282252759,
+        "median_alignment_error": 0.0012051210553538044,
+        "median_iterations": 29.0,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.03405275663572781,
+        "median_alignment_error": 0.000146392132686553,
+        "median_iterations": 7.0,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 45,
+      "point-to-point": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.2545841129582764,
+        "median_alignment_error": 0.0010510905159838825,
+        "median_iterations": 34.5,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.03417120387058411,
+        "median_alignment_error": 0.00014676500243992373,
+        "median_iterations": 8.0,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 60,
+      "point-to-point": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.21714165084503,
+        "median_alignment_error": 0.0008865745582220528,
+        "median_iterations": 49.0,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.03448858726522799,
+        "median_alignment_error": 0.00014694492788793232,
+        "median_iterations": 11.0,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 75,
+      "point-to-point": {
+        "success_rate": 0.95,
+        "median_rotation_error_deg": 0.27492691563746025,
+        "median_alignment_error": 0.001097102138803816,
+        "median_iterations": 68.0,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 0.5,
+        "median_rotation_error_deg": 0.03462838324542036,
+        "median_alignment_error": 0.00014692030706317852,
+        "median_iterations": 12.0,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 90,
+      "point-to-point": {
+        "success_rate": 0.35,
+        "median_rotation_error_deg": 0.12638773288270921,
+        "median_alignment_error": 0.0006535104759550351,
+        "median_iterations": 162.0,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 0.35,
+        "median_rotation_error_deg": 0.03447627936472845,
+        "median_alignment_error": 0.00014616590763523823,
+        "median_iterations": 20.0,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 105,
+      "point-to-point": {
+        "success_rate": 0.35,
+        "median_rotation_error_deg": 0.12955437315046392,
+        "median_alignment_error": 0.0006752214277022479,
+        "median_iterations": 136.0,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 0.4,
+        "median_rotation_error_deg": 0.03459108858141832,
+        "median_alignment_error": 0.00014658350140533028,
+        "median_iterations": 20.5,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 120,
+      "point-to-point": {
+        "success_rate": 0.2,
+        "median_rotation_error_deg": 0.12587773992229198,
+        "median_alignment_error": 0.0006531372940111963,
+        "median_iterations": 195.5,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 0.3,
+        "median_rotation_error_deg": 0.03447584007886441,
+        "median_alignment_error": 0.00014668432725136463,
+        "median_iterations": 21.5,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 135,
+      "point-to-point": {
+        "success_rate": 0.05,
+        "median_rotation_error_deg": 0.12535738168475768,
+        "median_alignment_error": 0.000652764112067097,
+        "median_iterations": 207.0,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 0.15,
+        "median_rotation_error_deg": 0.03447731729771274,
+        "median_alignment_error": 0.000146184618944961,
+        "median_iterations": 31.0,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 150,
+      "point-to-point": {
+        "success_rate": 0.0,
+        "median_rotation_error_deg": null,
+        "median_alignment_error": null,
+        "median_iterations": null,
+        "hit_iteration_cap": 0.05
+      },
+      "point-to-plane": {
+        "success_rate": 0.05,
+        "median_rotation_error_deg": 0.03439610548631658,
+        "median_alignment_error": 0.00014795189197189994,
+        "median_iterations": 23.0,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 165,
+      "point-to-point": {
+        "success_rate": 0.0,
+        "median_rotation_error_deg": null,
+        "median_alignment_error": null,
+        "median_iterations": null,
+        "hit_iteration_cap": 0.0
+      },
+      "point-to-plane": {
+        "success_rate": 0.0,
+        "median_rotation_error_deg": null,
+        "median_alignment_error": null,
+        "median_iterations": null,
+        "hit_iteration_cap": 0.0
+      }
+    },
+    {
+      "angle": 180,
+      "point-to-point": {
+        "success_rate": 0.0,
+        "median_rotation_error_deg": null,
+        "median_alignment_error": null,
+        "median_iterations": null,
+        "hit_iteration_cap": 0.05
+      },
+      "point-to-plane": {
+        "success_rate": 0.0,
+        "median_rotation_error_deg": null,
+        "median_alignment_error": null,
+        "median_iterations": null,
+        "hit_iteration_cap": 0.0
+      }
+    }
+  ]
+}

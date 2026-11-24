@@ -1,0 +1,125 @@
+{
+  "shape": "Stanford Bunny",
+  "points": 4000,
+  "trials": 20,
+  "success_threshold_deg": 5.0,
+  "noise": [
+    {
+      "noise": 0.0,
+      "point-to-point": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.28264215539446436
+      },
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.03403654423221886
+      }
+    },
+    {
+      "noise": 0.001,
+      "point-to-point": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.2727965259276197
+      },
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.06512644898443443
+      }
+    },
+    {
+      "noise": 0.0025,
+      "point-to-point": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.2570426761469762
+      },
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.09960836043136281
+      }
+    },
+    {
+      "noise": 0.005,
+      "point-to-point": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.4747110965124126
+      },
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.19414906895394168
+      }
+    },
+    {
+      "noise": 0.01,
+      "point-to-point": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.8948898729974719
+      },
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.438548227713656
+      }
+    }
+  ],
+  "overlap": [
+    {
+      "keep_fraction": 1.0,
+      "mean_overlap": 0.9998562499999999,
+      "point-to-plane": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.025480535729247203
+      },
+      "point-to-plane, trimmed": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.025161743466451846
+      }
+    },
+    {
+      "keep_fraction": 0.9,
+      "mean_overlap": 0.8869583333333333,
+      "point-to-plane": {
+        "success_rate": 0.85,
+        "median_rotation_error_deg": 1.3845942204160608
+      },
+      "point-to-plane, trimmed": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.030752296380475587
+      }
+    },
+    {
+      "keep_fraction": 0.8,
+      "mean_overlap": 0.7511796875,
+      "point-to-plane": {
+        "success_rate": 0.65,
+        "median_rotation_error_deg": 4.48197751446309
+      },
+      "point-to-plane, trimmed": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.03501754623188842
+      }
+    },
+    {
+      "keep_fraction": 0.7,
+      "mean_overlap": 0.5718839285714286,
+      "point-to-plane": {
+        "success_rate": 0.25,
+        "median_rotation_error_deg": 11.120028854055303
+      },
+      "point-to-plane, trimmed": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.054813345717329306
+      }
+    },
+    {
+      "keep_fraction": 0.6,
+      "mean_overlap": 0.3295208333333334,
+      "point-to-plane": {
+        "success_rate": 0.0,
+        "median_rotation_error_deg": 20.802314868312767
+      },
+      "point-to-plane, trimmed": {
+        "success_rate": 1.0,
+        "median_rotation_error_deg": 0.06333325091632167
+      }
+    }
+  ]
+}
