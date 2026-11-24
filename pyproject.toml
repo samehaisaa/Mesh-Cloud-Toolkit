@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "meshcloud"
 version = "0.1.0"
 description = "Point cloud registration from scratch: mesh sampling, point-to-point and point-to-plane ICP, trimmed ICP."
+readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.10"
